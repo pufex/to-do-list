@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: gray;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 400px;
+  min-height: 500px;
+}
+
+.add-note{
+  display: flex;
+  padding: 10px;
+  justify-content: center; 
+}
+
+#contents{
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: cornsilk;
+  outline: none;
+}
+
+#submit{
+  width: 50px;
+  background-color: green;
+  color: white;
+  font-size: 2rem;
+}
+
