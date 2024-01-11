@@ -8,8 +8,11 @@ let listItems = [];
 submit.addEventListener('click', () => {
   const value = contents.value;
   listItems.push(value);
+  
+  if(contents.value != ''){
+    addTask();
+  }
   contents.value = '';
-  addTask();
 })
 
 const addTask = () => {
