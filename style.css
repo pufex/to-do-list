@@ -20,7 +20,8 @@ body{
   background-color: rgb(66, 66, 66);
   width: 400px;
   overflow: hidden;
-  border-radius: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 .container h1{
   font-size: 2rem;
@@ -57,7 +58,7 @@ body{
 .list{
   list-style-type: none;
   height: 360px;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 
