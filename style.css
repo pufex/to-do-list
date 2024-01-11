@@ -109,7 +109,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: navy;
   color: white;
   height: 60px;
   width: 60px;
@@ -117,5 +117,9 @@ body{
   font-size: 2rem;
 }
 
-
-
+@media (max-width: 450px){
+  .container{
+    border-radius: 0;
+    min-height: 100vh;
+  }
+}
