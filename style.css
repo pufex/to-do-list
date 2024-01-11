@@ -9,16 +9,16 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: gray;
+  background-color: rgb(44, 44, 44);
 }
 
 .container{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  background-color: white;
+  /* justify-content: space-between; */
+  background-color: rgb(66, 66, 66);
   width: 400px;
-  min-height: 500px;
+  min-height: 540px;
 }
 
 .add-note{
@@ -43,4 +43,35 @@ body{
   color: white;
   font-size: 2rem;
 }
+
+.list{
+  list-style-type: none;
+}
+
+.list-item{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: green;
+}
+
+.item-content{
+  display: block;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.delete-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+
 
