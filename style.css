@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 body{
@@ -20,6 +21,15 @@ body{
   width: 400px;
   min-height: 540px;
 }
+.container h1{
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+}
+
 
 .add-note{
   display: flex;
