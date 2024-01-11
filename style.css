@@ -36,23 +36,28 @@ body{
 .add-note{
   display: flex;
   justify-content: center; 
+  height: 40px;
+  border-bottom: 1px solid black;
 }
 
 #contents{
   width: 100%;
-  height: 40px;
+  height: 100%;
   padding: 10px;
-  border: 1px solid black;
+  border: none;
   background-color: cornsilk;
   outline: none;
 }
 
 #submit{
   width: 80px;
+  height: 100%;
   background-color: rgb(56, 108, 61);
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
   border: none;
+  user-select: none;
 }
 
 .list{
@@ -60,13 +65,14 @@ body{
   height: 360px;
   overflow-y: auto;
   overflow-x: hidden;
+  background-color: rgb(41, 48, 67);
 }
 
 .list-item{
   display: flex;
   justify-content: space-between;
+  background-color: rgb(73, 85, 119);
   width: 100%;
-  background-color: rgb(41, 48, 67);
 }
 
 .list::-webkit-scrollbar{
