@@ -72,7 +72,8 @@ body{
 .list-item{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(73, 85, 119);
+  background-color: transparent;
+  border-bottom: 1px solid white;
   width: 100%;
 }
 
@@ -110,12 +111,16 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: navy;
+  background-color: transparent;
   color: white;
   height: 60px;
   width: 60px;
   padding: 10px;
   font-size: 2rem;
+}
+
+.delete-item:hover{
+  background-color: rgb(60, 70, 98);
 }
 
 @media (max-width: 450px){
@@ -124,4 +129,9 @@ body{
     min-height: 100vh;
     width: 100%;
   }
+
+  .list::-webkit-scrollbar{
+    width: 0px;
+  }
+
 }
