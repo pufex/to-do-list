@@ -2,8 +2,15 @@ const submit = document.querySelector('#submit');
 const contents = document.querySelector('#contents');
 const list = document.querySelector('.list');
 
-let listItems = [];
+let listItems = localStorage.getItem('items');
+JSON.parse(localStorage.getItem('items')); 
 
+
+function getData() {
+
+  for (let i = 0; ;)
+    ;
+}
 
 submit.addEventListener('click', () => {
   const value = contents.value;
